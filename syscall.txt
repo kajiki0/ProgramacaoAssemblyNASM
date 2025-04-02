@@ -1,0 +1,34 @@
+- uma chamada de sistema pode ter até seis parametros e devem ser utilizadas com registradores
+na ordem correta
+
+Registrador			Utilidade
+RAX					ID do system call
+RDI					Primeiro parametro
+RSI					Segundo parametro
+RDX					Terceiro parametro
+R10					Quarto parametro
+R8					Quinto parametro
+R9					Sexto parametro
+
+
+
+- no caso para escrever no console:
+identificador(RAX)		syscall			parametros
+
+1 						sys_write		rdi(unsgined int fd)  rsi(const char *buf)  rdx(size_t count)
+
+RDI pode ter os seguintes valores:
+0 (entrada padrao)
+1 (saida padrao)
+2 (erro)
+
+vamos usar o valor 1
+
+
+chamada para encerrar o programa:
+
+sys_exit
+ID 60 (lembrando que ID de syscall deve ser atribuido ao RAX)
+codigo de erro(semelhante ao retorno da main em linguagem C)
+0 (encerrou com sucesso)
+1 (ocorreu algum erro)
