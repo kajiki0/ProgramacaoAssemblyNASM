@@ -1,5 +1,5 @@
 section .data ; definições de dados(constantes,variaveis, etc)
-	mensagem db 'Hello, World!',10  ;definindo os bytes (db) da variavel 'mensagem' com a string
+	mensagem db 'Hello, World!',10  ;definindo os bytes (db) da variavel "mensagem" com a string
 									;temos 14 bytes de tamanho, 1 char = 1 byte
 ;o valor 10 é codigo ASCII para indicar quebra de linha '\n'
 section .text ; código do programa
