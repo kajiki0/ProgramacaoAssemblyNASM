@@ -1,6 +1,7 @@
 # Estudos pessoais de programação em assembly nasm
 
-fonte: canal no youtube "DesCOMPlica, Oliba!", playlist de NASM
+fonte: canal no youtube "DesCOMPlica, Oliba!", [playlist](https://www.youtube.com/playlist?list=PLHCyLhqWSaHAvibGpwHGvoN6pO7AUGyOh) de NASM 
+
 maquina utilizada: WSL com Ubuntu 24.04 LTS
 
 
