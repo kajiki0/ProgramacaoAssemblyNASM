@@ -1,6 +1,6 @@
 ASSEMBLER = nasm
 LINKER = ld
-FILE = leitura_dados
+FILE = nome_compatibilidade
 
 
 $(FILE).o: $(FILE).asm

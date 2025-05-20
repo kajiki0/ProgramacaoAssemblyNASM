@@ -18,3 +18,5 @@ ld <arquivoObjeto>.o -o <arquivoExecutavel>
 
 rodar programa:
 ./<arquivoExecutavel>
+
+
