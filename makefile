@@ -1,6 +1,6 @@
 ASSEMBLER = nasm
 LINKER = ld
-FILE = nome_compatibilidade
+FILE = depurar
 
 
 $(FILE).o: $(FILE).asm

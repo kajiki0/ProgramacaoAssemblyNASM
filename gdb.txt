@@ -1,0 +1,34 @@
+o programa de debug que vamos utilizar sera o gdb(GNU debugger)
+
+->breakpoint: um ponto da depuraçao em que o depurador vai parar ou iniciar determinada instruçao do codigo
+
+->os breakpoints em assembly sao colocados nos rotulos(labels)
+
+neste caso,vamos colocar um breakpoint no label _start (o unico que temos no codigo)
+
+nota(uso do gdb):
+
+*tudo pode ser visto no -help, mas vou anotar para ser mais pratico :)
+
+	-atribuir breakpoint
+		(gdb) break <nome_label>
+		
+	-para ver o codigo passo a passo
+		(gdb) layout asm
+		
+	-trocar sintaxe para intel
+		(gdb) set disassembly-flavor intel
+		~$
+	-ver o valor atribuido aos registradores
+		(gdb) layout regs
+
+	-iniciar depurador
+		(gdb) run
+		
+	-executar uma instrucao por vez
+		(gdb) stepi
+
+	-ver conteudo do endereço(string)
+		x/s <endereço>
+
+		
