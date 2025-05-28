@@ -4,6 +4,8 @@ fonte: canal no youtube "DesCOMPlica, Oliba!", [playlist](https://www.youtube.co
 
 maquina utilizada: WSL com Ubuntu 24.04 LTS
 
+### nota:
+após a descontinuação do canal com as aulas de assembly, vou continuar com o livro "Programação em Baixo Nível " do Igor Zhirkov
 
 
 ## Building do programa
